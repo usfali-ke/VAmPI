@@ -1,8 +1,10 @@
 connexion~=2.7.0
-flask~=1.1.2
+flask~=2.2.5
 flask-sqlalchemy
 jsonschema~=3.2.0
 sqlalchemy
 swagger-ui-bundle
 PyJWT~=1.7.1
 markupsafe==2.0.1
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.2.3 # not directly required, pinned by Snyk to avoid a vulnerability
